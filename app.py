@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from Flask ci/cd Project!"
+    return "Hello from Jenkins CI/CD Project!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001)
